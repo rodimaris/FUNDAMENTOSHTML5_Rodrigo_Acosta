@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <svg style="border: 2px solid blue" width="150" height="150" viewbox="0 0 70 70">
+      <image xlink:href="imagenes/personal logo.svg" width="70" height="70" x=0px y="0px"></image>
+    </svg>
+
+    <h1 id="Educacion">Hoja de Vida</h1>
+    <h2>Rodrigo Acosta</h2>
+    <ul>
+      <li>
+        <a href="../fundamentoshtml/index.html" >Inicio</a>
+      </li>
+      <li>
+        <a href="#Educacion" >Educacion</a>
+      </li>
+      <li>
+        <a href="../fundamentoshtml/experiencia.html" >Experiencia</a>
+      </li>
+
+
+    </ul>
+
+    <h2>Datos personales</h2>
+      <ul>
+      <li><strong>Nombres:</strong> Rodrigo Javier</li>
+      <li><strong>Apellidos:</strong> Acosta Loaiza</li>
+      <li><strong>Fecha Nacimiento:</strong> 01-08-1979</li>
+      <li><strong>Lugar Nacimiento:</strong> Quito-Ecuador</li>
+    </ul>
+    <h2>Educacion</h2>
+    <table border="3px">
+      <caption><h4>Instruccion</h4></caption>
+      <thead >
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody >
+          <tr align="center">
+            <td>1997</td>
+            <td>San Gabriel</td>
+            <td>Quito - Ecuador</td>
+            <td>si</td>
+          </tr>
+          <tr align="center">
+            <td>2000</td>
+            <td>Zamorano</td>
+            <td>Tegucigalpa - Honduras</td>
+            <td>si</td>
+          </tr>
+          <tr align="center">
+            <td>2005</td>
+            <td>U. Internacional</td>
+            <td>Quito - Ecuador</td>
+            <td>si</td>
+          </tr>
+      </tbody>
+      </table>
+    <h3>Agregar Estudios</h3>
+<form class="" action="educacion.html" method="post" autocomplete="on" name="Formulario de examen">
+
+    <label for="Año"><strong>Año:</strong></label>
+      <input type="month" id="año" required></br>
+    </br>
+
+<label for="Institución"><strong>Institución:</strong></label>
+<input type="text" id="Institución" value="" placeholder="Institución" required maxlength="60"> <br/>
+
+<p>
+  <label for="Lugar" valign="topcenter"> <strong>Lugar:</strong>  </label>
+  <textarea name="Lugar" rows="2" cols="20" required></textarea>
+  </br>
+</p>
+
+<label for="culmino" > <strong>Culmino?:</strong>  </label>
+    <input type="radio" name="culmino" value="1" checked>si
+    <input type="radio" name="culmino" value="2">no
+  </br>
+
+
+
+</br>
+  <input type="submit" name="submit" label="submit" placeholder="send submit">
+  <input type="reset" name="reset" label="restablecer" placeholder="resetear formulario"> <br/>
+</form>
+
+
+
+  <footer>
+    <p>
+      <strong>Informacion de Contacto:</strong>
+        <ul>
+          <li> <strong>Email:</strong> <a href="mailto:rodiacos3101@gmail.com">rodiacos3101@gmail.com </a></li>
+          <li> <strong>Telefono:</strong>  0987654321 </li>
+          <li> <strong>Direccion:</strong> Quito-Ecuador </li>
+        </ul>
+         @Derechos reservados </br></br>
+    </p>
+
+  </footer>
